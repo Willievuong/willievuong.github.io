@@ -88,6 +88,17 @@ a:active {
     text-decoration: none;
 }
 
+.mapButton {
+    cursor: pointer;
+    background: transparent;
+    border: none !important;
+    padding: 9px 13px;
+    position: absolute;
+    top: 390px;
+    left: 680px;
+
+}
+
 
 @keyframes navButton {
     from {background-color: #fff3e0;}
