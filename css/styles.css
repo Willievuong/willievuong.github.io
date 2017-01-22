@@ -44,11 +44,3 @@ body {
     from {background-color: #fff3e0;}
     to {background-color: yellow;}
 }
-
-.map{
-	width:100%;
-	height=800;
-	position: absolute;
-    left: 0px;	
-
-}
