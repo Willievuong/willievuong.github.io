@@ -1,28 +1,78 @@
 <!DOCTYPE html>
-<html>
-<body>
+<html lang="en">
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <title>Navbar with Search</title>
+        <meta name="generator" content="Bootply" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+            <script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+        <link href="css/styles.css" rel="stylesheet">
+    </head>
+    <body>
+<div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" rel="home" href="#">Brand</a>
+    </div>
+    
+    <div class="collapse navbar-collapse">
+        
+        <ul class="nav navbar-nav">
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Link</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+                <li class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+            </li>
+        </ul>
+        <button type="button" class="btn btn-default navbar-btn">Button</button>
+        <div class="col-sm-3 col-md-3 pull-right">
+        <div class="navbar-text">Text</div>
+        <form class="navbar-form" role="search">
+        <div class="input-group">
+            <input type="text" class="form-control" placeholder="Search" name="srch-term" id="srch-term">
+            <div class="input-group-btn">
+                <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+            </div>
+        </div>
+        </form>
+        </div>
+        
+    </div>
+</div>
 
-<center><div style="width:900px;height:100px;border:1px solid #000;">
-<style>
-h1 {
-    text-align: left;
-    font-family: "Georgia", Times, serif;
-    margin-right: 9em;
-}
 
-div {
-    display: flex;
-    justify-content: left;
-    align-items: center;
-    }>
+<div class="container">
+  
+  <div class="text-center">
+    <h1>Bootstrap Template</h1>
+    <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+  </div>
+  
+</div><!-- /.container -->
+    <!-- script references -->
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
 
-
-
-</style>
-
-<h1>  Napkim </h1>
-<center><IMG SRC="data:image/png;base64,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" ALT="Map of Santa Cruz" WIDTH=80 HEIGHT=50></center>
-</center?>
 
 <div align="right">	<!--
 <form action="list.html">
