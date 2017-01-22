@@ -31,6 +31,34 @@ body {
 
 }
 
+.joinbutton  {
+    background-color: #ADFF2F ; /* Orange */
+    border: solid;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.cancelbutton  {
+    background-color: #CD3333 ; /* Orange */
+    border: solid;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
 a:link {
     text-decoration: none;
 }
