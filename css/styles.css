@@ -8,7 +8,7 @@ body {
 #navbar{
    height: 120px;
    background: #000000;
-   padding: 0px;
+   padding: 10px;
    position: fixed;
    top: 0;
    left: 0;
@@ -24,12 +24,19 @@ body {
     text-align: center;
     text-decoration: underline;
     display: inline-block;
+    
+    /* trying to delete the hyperlink effect */
     font-size: 16px;
     font-weight: bold;
-}
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor:pointer;
+    }
 
 .button: hover {
-    background-color: #ffffff; /* Orange */
+	/*display: -moz-inline-stack;
+   	display: inline-block;
+    background-color: #ffffff; /* Orange 
     border: solid;
     color: white;
     padding: 13px 30px;
@@ -37,7 +44,10 @@ body {
     text-decoration: underline;
     display: inline-block;
     font-size: 16px;
-    font-weight: bold;
+    font-weight: bold;*/
+    background-color:white;
+    color:black;
+    border:2px solid #4CAF50;
 }
 
 @keyframes navButton {
@@ -52,3 +62,9 @@ body {
     left: 0px;	
 
 }
+
+ .imageContainer {
+       width:200px; 
+       height:200px; 
+       background-image: url(locationoftheimage);
+ }
