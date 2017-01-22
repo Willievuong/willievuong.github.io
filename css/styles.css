@@ -16,29 +16,33 @@ body {
    width: 100%
 }
 
-#navbar-page ul {
-   margin: 0;
-   padding: 0;    
-}
-
-#navbar-page li {
-   display: inline;
-    list-style-type: none;
-   padding: 0px
-   background-color: #ffffff;
-   color: #000000;
-   margin: 0;
-}
-
-#button {
-    background-color: #4CAF50; /* Green */
-    border: none;
+.button  {
+    background-color: #fff3e0; /* Orange */
+    border: solid;
     color: white;
-    padding: 15px 32px;
+    padding: 13px 30px;
     text-align: center;
-    text-decoration: none;
+    text-decoration: underline;
     display: inline-block;
     font-size: 16px;
+    font-weight: bold;
+}
+
+.button: hover {
+    background-color: #ffffff; /* Orange */
+    border: solid;
+    color: white;
+    padding: 13px 30px;
+    text-align: center;
+    text-decoration: underline;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+@keyframes navButton {
+    from {background-color: #fff3e0;}
+    to {background-color: yellow;}
 }
 
 .map{
