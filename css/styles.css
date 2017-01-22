@@ -18,16 +18,29 @@ body {
 }
 
 .button  {
+    cursor: pointer;
     background-color: #fff3e0; /* Orange */
-    border: solid;
-    color: white;
     padding: 13px 30px;
     text-align: center;
-    text-decoration: underline;
+    text-decoration: none;
     display: inline-block;
     font-size: 16px;
     font-weight: bold;
-    cursor: pointer;
+    outline: none;
+    border: none;
+    box-shadow: 1px 1px #999;
+
+}
+
+
+.button: hover {
+    background-color: #ffffff; 
+}
+
+.button: active{
+
+background-color: #ffffff;
+box-shadow: 0 5px #ffffff;
 
 }
 
@@ -68,22 +81,13 @@ a:visited {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
 a:active {
-    text-decoration: underline;
+    text-decoration: none;
 }
 
-.button: hover {
-    background-color: #ffffff; 
-}
-
-.button: active{
-
-background-color: #ffffff;
-
-}
 
 @keyframes navButton {
     from {background-color: #fff3e0;}
