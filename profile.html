@@ -81,6 +81,18 @@ border: 1px solid blue;
 /* For visibility. Delete me */
 border: 1px solid orange;
 }
+#Event
+{
+    width: 900px;
+    height: 250px;
+    text-align: center;
+
+    /* Move it to the right */
+    float: center;
+
+/* For visibility. Delete me */
+border: 1px solid green;
+}
 
 #Info span
 {
@@ -96,8 +108,9 @@ border: 1px solid purple;
 <br>
 <br>
     <div id="LeftCol">
-        <div id="Photo"></div>
-        <img src="doge.jpg" style="text-align: top; height:250px;width:200px;"  />
+
+        <div PhotoOptions> </div>
+        <img src="doge.jpg" style="text-align: top; height:250px; width:200px;"  />
     </div>
 
     <div id="Info">
@@ -114,6 +127,13 @@ border: 1px solid purple;
             <strong>Clan:</strong>
             <span>Vampire</span>
         </p>
+    </div>
+    <br><br><br><br><br><br><br><br><br><br><br>
+    <div id = "Event">
+        <div>
+        <label>My Event:</label>
+        </div> <br>
+        <div id="log">Doge assemble. Defeat the Cates. Take over the world!</div>
     </div>
 
     <!-- Needed because other elements inside ProfilePage have floats -->
