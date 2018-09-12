@@ -1,10 +1,9 @@
 # William's Website
 
-Hi, Hello! welcome, welcome, welcome. Here's all the code I've written to build my website. Web development isn't really my fortay, but I needed somewhere to showcase all my work! 
+Superceded..
+--
+Moving on to better things with react and firebase hosting. Repo will no longer be updated with anything new 
 
-## TO DO LIST
-
-
-## PLANNED
-1. Pop-up projects card   
-
+New Location
+-- 
+Website name will remain the same but the repo will be [here](https://github.com/Willievuong/PersonalSite) instead. 
